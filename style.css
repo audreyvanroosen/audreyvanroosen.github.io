@@ -1,3 +1,7 @@
 body {
-    background: red;
+    background: url('http://www.geeksundergrace.com/wp-content/uploads/2015/12/sky-wallpapers-beautiful-nature-background-catalog-scenery-sky-image-field-wallpaper-43100-e1450756959627.jpg');
+    background-size: cover;
+	text-align: center;
+	font-family: monospace;
+	color: white;
 }
