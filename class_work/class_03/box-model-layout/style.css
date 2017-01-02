@@ -1,0 +1,31 @@
+.outer {
+	background: lightgray;
+	padding: 20px;
+}
+
+.nav {
+	background: black;
+	color: white;
+	padding: 10px;
+	border: 10px solid lightgray;
+	text-align: center;
+}
+
+.block_all {
+	background: tomato;
+	padding: 20px;
+	border: 10px solid lightgray;
+	text-align: center;
+}
+
+.block_1 {
+	color: blue;
+}
+
+.block_2 {
+	color: green;
+}
+
+.block_3 {
+	color: yellow;
+}

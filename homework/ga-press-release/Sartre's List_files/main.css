@@ -1,0 +1,31 @@
+body {
+	font-family: lato;
+	width: 720px;
+	padding: 54px;
+	border-left: 6px solid #dddddd;
+	line-height: 1.5;
+}
+
+header {
+	color: #DD0000;
+	font-size: 40px;
+}
+
+.better {
+	color: black;
+	font-size: 25px;
+}
+
+nav {
+	display: inline-block;
+	margin: 6px;
+}
+
+.navigation {
+	color: #dddddd;
+
+}
+
+.navigation:hover {
+	color: black;
+}
