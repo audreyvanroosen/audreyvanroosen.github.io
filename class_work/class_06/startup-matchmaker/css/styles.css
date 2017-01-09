@@ -1,0 +1,144 @@
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+
+body {
+	background-image: url('../img/coworking.jpg');
+	background-size: contain;
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	width: 100%;
+	height: 100%;
+}
+
+header {
+	height: 70px;
+	background-color: black;
+	border-bottom: 5px solid yellow;
+	
+}
+
+.logo {
+	font-family: 'Merriweather', serif;
+	color: yellow;
+	float: left;
+	margin: 15px 0px 15px 40px;
+}
+
+nav {
+	display: inline-block;
+	float: right;
+	font-size: 20px;
+	margin: 20px 10px 20px 10px;
+}
+
+.navigation {
+	color: white;
+	text-decoration: none;
+	margin: 20px 20px 20px 20px;
+}
+
+.tagline {
+	font-family: 'Merriweather', serif;
+	background-color: #C6C6C6;
+	font-style: italic;
+	text-align: center;
+	font-size: 25px;
+	height: 50px;
+	padding-top: 15px;
+	border: 1px solid gray;
+}
+
+.taste {
+	text-decoration: line-through;
+	color: gray;
+}
+
+.are {
+	border-bottom: 3px solid yellow;
+}
+
+.meet {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+}
+
+.box1 {
+	height: 250px;
+	width: 400px;
+	background-color: rgba(255, 255, 255, .8);
+	border: 1px solid gray;
+	float: right;
+	margin-right: 40px;
+	padding: 40px;
+	font-size: 20px;
+	line-height: 1.5;
+	box-shadow: 1px 1px 1px grey;
+	margin-top: 40px;
+}
+
+.create {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	height: 20px;
+	padding: 10px 0px 20px 0px;
+	background-color: yellow;
+	margin-top: 35px;
+	box-shadow: 0 3px 0px -1px gray;
+	border-radius: 5px;
+}
+
+.bottomboxes {
+	width: 100%;
+	background-color: whitesmoke;
+	height: 280px;
+	display: inline-block;
+	padding: 30px 0px 15px 0px;
+	margin-top: 40px;
+}
+
+.boxmiddle {
+	border-right: 1px solid lightgray;
+	border-left: 1px solid lightgray;
+}
+
+.bottom3 {
+	float: left;
+	width: 26%;
+	font-size: 20px;
+	padding: 40px;
+}
+
+.bottomcta {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	height: 20px;
+	padding: 10px 0px 20px 0px;
+	background-color: #C6C6C6;
+	margin-top: 35px;
+	box-shadow: 0 3px 0px -1px gray;
+	border-radius: 5px;
+	font-size: 20px;
+	font-style: bold;
+}
+
+.bottomheadline {
+	font-family: 'Merriweather', serif;
+	font-size: 25px;
+	padding-bottom: 5px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	float: left;
+	width: 100%;
+	font-size: 20px;
+	padding: 30px;
+}
