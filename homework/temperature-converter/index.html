@@ -7,7 +7,22 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-
+	<div class="wrapper">
+		<h1>Temperature Converter</h1>
+		<div>
+			<h2>C° to F°</h2>
+			<input type="text" name="input" class="celsiusInput">
+			<button class="convertToFahrenheit">Convert to Fahrenheit!</button>
+			<h3>It is <span class="solutionFahrenheit"> </span> degrees Fahrenheit.</h3>
+		</div>
+		<div>
+			<h2>F° to C°</h2>
+			<input type="text" name="input" class="fahrenheitInput">
+			<button class="convertToCelsius">Convert to Celsius!</button>
+			<h3>It is <span class="solutionCelsius"> </span> degrees Celsius.</h3>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<script type="text/javascript" src="js/project.js"></script>
 </body>
 </html>

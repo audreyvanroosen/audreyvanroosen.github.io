@@ -1,0 +1,19 @@
+body {
+	background-image: url('http://www.drodd.com/images13/clouds21.jpg');
+	background-size: cover;
+	font-family: Parkavenue, cursive;
+}
+
+.wrapper {
+	text-align: center;
+	padding: 20px;
+	width: 50%;
+	height: auto;
+	background-color: white;
+	margin: 100px auto;
+	opacity: .8;
+}
+
+.solutionFahrenheit, .solutionCelsius {
+	color: blue;
+}
