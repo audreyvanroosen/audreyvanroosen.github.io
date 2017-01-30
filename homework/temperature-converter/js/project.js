@@ -7,7 +7,7 @@
 $('.convertToFahrenheit').click(function() {
 	var celsiusInput = $('.celsiusInput').val();
 	var solutionFahrenheit = (celsiusInput * (9/5)) + 32;
-	$('.solutionFahrenheit').html(solutionFahrenheit);
+	$('.solutionFahrenheit').html(solutionFahrenheit.toFixed(2));
 })
 
 $('.convertToCelsius').click(function() {
@@ -15,3 +15,4 @@ $('.convertToCelsius').click(function() {
 	var solutionCelsius = (fahrenheitInput - 32) * (5 / 9);
 	$('.solutionCelsius').html(solutionCelsius.toFixed(2));
 })
+
