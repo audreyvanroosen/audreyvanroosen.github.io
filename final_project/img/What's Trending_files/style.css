@@ -1,0 +1,27 @@
+body {
+	font-family: "Apercu", Calibri, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+}
+
+.logo {
+    width: 100%;
+    height: 56px;
+    border-top: #fdadcc 10px solid;
+    border-bottom: #fdadcc 10px solid;
+    animation: 2s infinite;
+    animation-timing-function: linear;
+    box-sizing: content-box;
+    background: url(img/logo1.png) 0 0 repeat-x;
+}
+
+.main {
+	width: 50%;
+}
+
+nav {
+	display: inline-block;
+	list-style-type: none;
+	width: 100%;
+}
