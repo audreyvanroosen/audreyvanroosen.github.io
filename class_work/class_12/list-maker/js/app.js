@@ -10,11 +10,14 @@ $('#clickme').click(function appendItem(item) {
 	var item = $('#item').val();
 	item = '<li>' + item + '</li>';
 	$('#list').append(item);
-})
 
-//Apologies for not completing the bonuses, I was in DC this weekend and left my laptop in Brooknly//
+
+//Apologies for not completing the bonuses, I was in DC this weekend and left my laptop in Brooklyn//
 
 // Bonus: Focus on #item after the item is added (hint: look up "jquery focus")
+
+	$('#item').focus();
+})
 
 // Itermediate Bonus: If the value of #item is blank, do not append the <li> and alert user (hint: use an if/else statement)
 // Legendary Bonus: Remove individual <li> elements when they are clicked (hint: use $(this) and .remove())

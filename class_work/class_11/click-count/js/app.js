@@ -8,10 +8,15 @@
 // 6: Else, change the background-color of <body> to black
 
 $(document).ready(function () {
+
 	var clicks = 0;	
+
 	$('#clickme').click(function() {
+
 		clicks = clicks + 1;
+
 		$('#click-num').html(clicks);
+		
 		if (clicks == 1) {
 			$('#click-str').html('click');
 		} else if (clicks == 5) {
