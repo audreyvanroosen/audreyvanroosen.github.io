@@ -1,18 +1,51 @@
 body {
-    background-color: #ffa686;
+    background-color: white;
+    height: 100%;
 }
 
+/*.hidden-icon {
+    display: none;
+}*/
+
 header {
-    position: fixed;
+    position: relative;
     width: 100%;
-    top: 0;
-    background-color: #ffa686;
+}
+
+a:hover {
+    color: #8E6D85;
+}
+
+h1:hover {
+    color: #8E6D85;
+}
+
+.crystal {
+    position: absolute;
+    left: 45%;
+    height: 75px;
+    margin-top: 10px;
 }
 
 header a {
-    color: white;
+    color: #F19FAA;
     text-decoration: none;
     margin: 5px;
+}
+
+header.clone {
+    position: fixed;
+    top: -100px;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: white;
+    color: #F19FAA;
+    transition: 0.2s top cubic-bezier(.3,.73,.3,.74);
+}
+
+body.down header.clone {
+    top: 0;
 }
 
 .page-header {
@@ -21,7 +54,7 @@ header a {
     font-size: 50px;
     margin-top: 5px;
     margin-bottom: 5px;
-    color: white;
+    color: #F19FAA;
     float: left;
     padding-left: 10px;
 }
@@ -35,21 +68,115 @@ nav {
     font-size: 25px;
 }
 
-.wrapper {
+/*.wrapper {
     padding-top: 100px;
+}*/
+
+/*.wrapper_image {
+    height: 600px;
+    width: 100%;
+}*/
+
+.parallax { 
+    position: relative;
+
+    /* Set a specific height */
+    height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.wrapper_image {
-    height: 600px;
-    width: 1200px;
+.intro {
+     /* The image used */
+    background-image: url("../img/intro_1.jpg");
+    width: 100%;
+}
+
+.one {
+     /* The image used */
+    background-image: url("../img/eyebrow_medley.jpg");
+}
+
+.two {
+     /* The image used */
+    background-image: url("../img/mascara_medley.jpg");
+}
+
+.three {
+      /* The image used */
+    background-image: url("../img/skincare_medley.jpg");
+}
+
+.four {
+       /* The image used */
+    background-image: url("../img/lip_medley.jpg");
+}
+
+.five {
+       /* The image used */
+    background-image: url("../img/hair_medley.jpg");
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #A7E4D9;
+  font-size: 50px;
+  font-family: 'Pacifico', cursive;
+}
+
+.caption span.border {
+  background-color: rgba(51, 40, 57, .7);
+  padding: 20px;
 }
 
 footer {
     text-align: center;
+    background-color: #F19FAA;
 }
 
 .footer_image {
     height: 50px;
-    
 }
+
+.youtube {
+    height: 70px;
+}
+
+.instagram {
+    height: 70px;
+    padding-right: 20px;
+}
+
+.birchbox {
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.cosmopolitan {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.refinery29 {
+    margin-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.instyle {
+    height: 40px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+
 

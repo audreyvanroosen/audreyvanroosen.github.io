@@ -1,40 +1,98 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>What's Trending</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	<title>what's trending</title>
+
+<!-- 	Pacifico Font Stylesheet -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
+
+<!-- 	Animate CSS Stylesheet -->
 	<link rel="stylesheet" href="css/animate.css">
+
+
+<!-- 	Font Awesome Stylesheet -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+
+<!-- 	CSS Index Stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
 	<header>
-		<h1 class="page-header">What's Trending</h1>
+		<h1 class="page-header">what's trending</h1>
+		<img class="crystal" src="img/crystal_ball.jpeg">
 		<nav>
-			<a href="#" class="top_nav">Eyebrows</a>
-			<a href="#">Mascara</a>
-			<a href="#">Skincare</a>
-			<a href="#">Lips</a>
-			<a href="#">Hair</a>
+			<a href="#eyebrows">eyebrows</a>
+			<a href="#mascara">mascara</a>
+			<a href="#skincare">skincare</a>
+			<a href="#lips">lips</a>
+			<a href="#hair">hair</a>
 		</nav>
 	</header>
 	<div class="wrapper">
-		<img src="img/eyebrow_medley.jpg" class="wrapper_image" alt="Eyebrows">
-		<img src="img/mascara_medley.jpg" class="wrapper_image" alt="Mascara">
-		<img src="img/skincare_medley.jpg" class="wrapper_image" alt="Skincare">
-		<img src="img/lip_medley.jpg" class="wrapper_image" alt="Lips">
-		<img src="img/hair_medley.jpg" class="wrapper_image" alt="Hair">
+	<!-- 	Intro -->
+	<section class="parallax intro">
+			<div class="caption">
+				<span class="border">what's trending</span>
+			</div>
+		</section>
+
+
+	<!-- 	One -->
+		<section id="eyebrows" class="parallax one">
+			<div class="caption">
+				<span class="border">eyebrows</span>
+			</div>
+		</section>
+
+	<!-- 	Two -->
+		<section id="mascara" class="parallax two">
+			<div class="caption">
+				<span class="border">mascara</span>
+			</div>
+		</section>
+
+	<!-- 	Three -->
+		<section id="skincare" class="parallax three">
+			<div class="caption">
+				<span class="border">skincare</span>
+			</div>
+		</section>
+
+	<!-- 	Four -->
+		<section id="lips" class="parallax four">
+			<div class="caption">
+				<span class="border">lips</span>
+			</div>
+		</section>
+
+		<!-- Five -->
+		<section id="hair" class="parallax five">
+		<div class="caption">
+				<span class="border">hair</span>
+			</div>
+		</section>
+
 	</div>
 	<footer>
-		<img src="img/youtube.png" class="footer_image" alt="YouTube">
-		<img src="img/instagram.png" class="footer_image" alt="Instagram">
-<!-- 		<img src="img/birchbox.png" class="footer_image" alt="Birchbox"> -->
-		<!-- Birchbox -->
-		<img src="img/cosmopolitan.png" class="footer_image" alt="Cosmopolitan">
-		<!-- Glossier -->
-		<!-- InStyle -->
-		<img src="img/refinery29.png" class="footer_image" alt="Refinery29">
+		<a href="www.yotube.com"><img src="img/youtube.png" class="footer_image youtube" alt="YouTube"></a>
+		<a href="www.instagram.com"><img src="img/instagram.png" class="footer_image instagram" alt="Instagram"></a>
+		<a href="www.birchbox.com"><img src="img/birchbox.png" class="footer_image birchbox" alt="Birchbox"></a>
+		<a href="www.cosmopolitan.com"><img src="img/cosmopolitan.png" class="footer_image cosmopolitan" alt="Cosmopolitan"></a>
+		<a href="www.refinery29.com"><img src="img/refinery29.png" class="footer_image refinery29" alt="Refinery29"></a>
+		<a href="www.instyle.com"><img src="img/instyle.png" class="footer_image instyle" alt="InStyle"><a>
 	</footer>
+
+<!-- 	JQ CDN -->
 	<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
-		<script src="js/app.js"></script>
+
+<!-- 	Awesome Cursor JS -->
+<!-- 	<script src="https://cdn.rawgit.com/jwarby/jquery-awesome-cursor/master/dist/jquery.awesome-cursor.min.js"></script>
+ -->
+<!-- 	Index JS -->
+	<script src="js/app.js"></script>
+
+<!-- 	<i class="fa fa-bomb hidden-icon" aria-hidden="true"></i> -->
+
 </body>
 </html>

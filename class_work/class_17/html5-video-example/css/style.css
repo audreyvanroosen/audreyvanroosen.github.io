@@ -3,3 +3,19 @@
 	padding: 0;
 	font-family: 'Pacifico', cursive;
 }
+
+video {
+	width: 100%;
+}
+
+.video-wrap {
+
+}
+
+h1 {
+	position: absolute;
+	color: white;
+	font-size: 100px;
+	text-align: center;
+	width: 100%;
+}
