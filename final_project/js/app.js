@@ -1,8 +1,4 @@
-$( document ).ready(function() {
-
-	setTimeout(function(){
-		 $('header').awesomeCursor('bomb');
-	}, 2000);
+$(document).ready(function() {
 
   var $header = $("header"),
       $clone = $header.before($header.clone().addClass("clone"));
@@ -12,4 +8,9 @@ $( document ).ready(function() {
     $('body').toggleClass("down", (fromTop > 200));
   });
 
+  setTimeout(function(){
+		 $('header').removeClass('hidden-header');
+	}, 10);
+
 });
+

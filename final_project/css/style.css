@@ -3,13 +3,13 @@ body {
     height: 100%;
 }
 
-/*.hidden-icon {
-    display: none;
-}*/
-
 header {
     position: relative;
     width: 100%;
+}
+
+.hidden-header {
+    display: none;
 }
 
 a:hover {
@@ -178,5 +178,85 @@ footer {
     padding-left: 10px;
 }
 
+/*secondary pages*/
 
+section {
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-left: 100px;    
+}
 
+.article {
+    padding: 25px;
+    margin: 25px;
+    border: 2px solid #F19FAA;
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+}
+
+.article:hover {
+    background-color: #A7E4D9;
+}
+
+.article-image {
+    margin-top: 10px;
+}
+
+.secondary-a {
+    text-decoration: none;
+}
+
+.secondary-footer {
+    width: 100%;
+    height: 75px;
+    position: absolute;
+    bottom: -400px;
+
+}
+
+.back {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: #F19FAA;
+    float: right;
+}
+
+.back:hover {
+    color: #8E6D85;
+}
+
+#grid[data-columns]::before {
+    content: '3 .column.size-1of3';
+}
+
+/* These are the classes that are going to be applied: */
+.column { 
+    float: left; 
+}
+
+.size-1of3 { 
+    width: 33.333%; 
+}
+
+@media screen and (max-width: 480px){
+    #grid[data-columns]::before {
+        content: '1 .column.size-1of1';
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    #grid[data-columns]::before {
+        content: '2 .column.size-1of2';
+    }
+}
+@media screen and (min-width: 769px) {
+    #grid[data-columns]::before {
+        content: '3 .column.size-1of3';
+    }
+}
+
+/* Again, you’re free to use and define the classes: */
+.column { float: left; }
+.size-1of1 { width: 100%; }
+.size-1of2 { width: 50%; }
+.size-1of3 { width: 33.333%; }
