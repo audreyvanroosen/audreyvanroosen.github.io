@@ -1,7 +1,22 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     background-color: white;
     height: 100%;
+    width: 100%;
+    margin: 0 0 80px;
+    padding: 0px;
+
 }
+
+.custom {
+    cursor: url("../img/star-20.png"), auto;
+}
+
+/*header + nav*/
 
 header {
     position: relative;
@@ -14,10 +29,12 @@ header {
 
 a:hover {
     color: #8E6D85;
+    cursor: url("../img/star-20.png"), auto;
 }
 
 h1:hover {
     color: #8E6D85;
+    cursor: url("../img/star-20.png"), auto;
 }
 
 .crystal {
@@ -68,14 +85,19 @@ nav {
     font-size: 25px;
 }
 
-/*.wrapper {
-    padding-top: 100px;
-}*/
+.nav-focus {
+    text-decoration: underline;
+}
 
-/*.wrapper_image {
-    height: 600px;
-    width: 100%;
-}*/
+/*wrapper + content*/
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -80px;
+    padding-bottom: 80px;
+}
+
+/*parallax*/
 
 .parallax { 
     position: relative;
@@ -91,33 +113,26 @@ nav {
 }
 
 .intro {
-     /* The image used */
     background-image: url("../img/intro_1.jpg");
-    width: 100%;
 }
 
 .one {
-     /* The image used */
     background-image: url("../img/eyebrow_medley.jpg");
 }
 
 .two {
-     /* The image used */
     background-image: url("../img/mascara_medley.jpg");
 }
 
 .three {
-      /* The image used */
     background-image: url("../img/skincare_medley.jpg");
 }
 
 .four {
-       /* The image used */
     background-image: url("../img/lip_medley.jpg");
 }
 
 .five {
-       /* The image used */
     background-image: url("../img/hair_medley.jpg");
 }
 
@@ -130,20 +145,37 @@ nav {
   color: #A7E4D9;
   font-size: 50px;
   font-family: 'Pacifico', cursive;
+  cursor: url("../img/heart20.png"), auto;
 }
 
 .caption span.border {
   background-color: rgba(51, 40, 57, .7);
   padding: 20px;
+  cursor: url("../img/heart20.png"), auto;
 }
+
+/*footer + logos*/
 
 footer {
     text-align: center;
     background-color: #F19FAA;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+}
+
+footer:hover {
+    cursor: url("../img/star-20.png"), auto;
 }
 
 .footer_image {
     height: 50px;
+}
+
+.footer_image:hover {
+    cursor: url("../img/star-20.png"), auto;
 }
 
 .youtube {
@@ -196,6 +228,7 @@ section {
 
 .article:hover {
     background-color: #A7E4D9;
+    cursor: url("../img/heart20.png"), auto;
 }
 
 .article-image {
@@ -207,11 +240,11 @@ section {
 }
 
 .secondary-footer {
-    width: 100%;
-    height: 75px;
-    position: absolute;
-    bottom: -400px;
-
+    display: inline-block;
+    padding-top: 10px;
+    height: 60px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .back {
@@ -219,11 +252,74 @@ section {
     font-size: 50px;
     color: #F19FAA;
     float: right;
+    padding-bottom: 100px;
 }
 
 .back:hover {
     color: #8E6D85;
 }
+
+.readers {
+    margin-bottom: 5px;
+}
+
+.vogue {
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.popsugar {
+    height: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.fader {
+    margin-bottom: 5px;
+}
+
+.bustle {
+    margin-bottom: 10px;
+}
+
+.birchbox2 {
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.instyle2 {
+    margin-top: 5px;
+}
+
+.e {
+    margin-bottom: 5px;
+}
+
+.allure {
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.wh {
+    height: 40px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.today {
+    margin-right: 10px;
+}
+
+.us {
+    margin-right: 10px;
+}
+
+.hb {
+    margin-right: 10px;
+
+}
+
+/*Salvatorre*/
 
 #grid[data-columns]::before {
     content: '3 .column.size-1of3';
@@ -237,6 +333,8 @@ section {
 .size-1of3 { 
     width: 33.333%; 
 }
+
+/*media queries for Salvatorre*/
 
 @media screen and (max-width: 480px){
     #grid[data-columns]::before {
