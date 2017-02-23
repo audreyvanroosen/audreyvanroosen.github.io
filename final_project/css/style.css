@@ -164,6 +164,9 @@ footer {
     bottom: 0;
     height: 80px;
     width: 100%;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 footer:hover {
@@ -184,7 +187,7 @@ footer:hover {
 
 .instagram {
     height: 70px;
-    padding-right: 20px;
+    margin-right: 10px;
 }
 
 .birchbox {
@@ -193,21 +196,19 @@ footer:hover {
 }
 
 .cosmopolitan {
+    margin-left: 10px;
     margin-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 10px;
 }
 
 .refinery29 {
+    margin-right: 10px;
+    margin-left: 10px;
     margin-bottom: 10px;
-    padding-right: 20px;
-    padding-left: 20px;
 }
 
 .instyle {
     height: 40px;
     margin-bottom: 15px;
-    padding-left: 10px;
 }
 
 /*secondary pages*/
@@ -264,8 +265,15 @@ section {
 }
 
 .vogue {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     margin-left: 10px;
+    height: 40px;
+}
+
+.vogue2 {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: 40px;
 }
 
 .popsugar {
@@ -279,12 +287,19 @@ section {
 }
 
 .bustle {
-    margin-bottom: 10px;
+    height: 40px;
+    margin-bottom: 15px;
 }
 
 .birchbox2 {
     height: 30px;
     margin-bottom: 10px;
+}
+
+.birchbox3 {
+    height: 30px;
+    margin-bottom: 15px;
+    margin-left: 10px;
 }
 
 .instyle2 {
@@ -315,8 +330,24 @@ section {
 }
 
 .hb {
-    margin-right: 10px;
+    height: 40px;
+    margin-right: 10px
+}
 
+.lh {
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.ny {
+    height: 40px;
+}
+
+.ny2 {
+    height: 40px;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 /*Salvatorre*/
