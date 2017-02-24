@@ -151,16 +151,17 @@ nav {
   top: 50%;
   width: 100%;
   text-align: center;
-  color: #A7E4D9;
   font-size: 50px;
   font-family: 'Pacifico', cursive;
   cursor: url("../img/heart20.png"), auto;
+  color: #8E6D85;
 }
 
 .caption span.border {
   background-color: rgba(51, 40, 57, .7);
   padding: 20px;
   cursor: url("../img/heart20.png"), auto;
+
 }
 
 /*footer + logos*/
@@ -233,11 +234,13 @@ section {
     border: 2px solid #F19FAA;
     font-family: 'Arimo', sans-serif;
     text-align: center;
+    color: #8E6D85; 
 }
 
 .article:hover {
     background-color: #A7E4D9;
     cursor: url("../img/heart20.png"), auto;
+    color: #8E6D85;
 }
 
 .article-image {
