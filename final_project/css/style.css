@@ -30,9 +30,14 @@ header {
     display: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 a:hover {
     color: #8E6D85;
     cursor: url("../img/star-20.png"), auto;
+    text-decoration: none;
 }
 
 h1:hover {
