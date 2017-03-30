@@ -1,0 +1,797 @@
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	overflow-x: hidden;
+}
+
+hr {
+	color: white;
+	width: 30%;
+	margin-top: 25px;
+}
+
+footer {
+	background-image: url('img/footer-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	text-align: center;
+
+	/*width: 100%;
+	height: 10%;
+	background-color: #5985b2;*/
+}
+
+.digthisvbwebsite {
+	text-decoration: none;
+	color: white;
+}
+
+/*class*/
+.menu {
+	background-color: none;
+	margin: 2%;
+	position: absolute;
+	cursor: pointer;
+
+}
+
+.line {
+	margin: 6px;
+	border: 1px solid white;
+	width: 30px;
+
+}
+
+#video-background {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+
+.welcome {
+	height: 100%;
+	overflow: hidden;
+}
+
+.Kevin {
+	text-align: center;
+	color: white;
+	height: 40%;
+	padding-top: 18%;
+}
+
+
+.name {
+	font-size: 70px;
+  	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
+  	text-transform: uppercase;
+  	font-weight: 200;
+  	text-align: center;
+  	letter-spacing: 2px;
+  	margin: 0;
+}
+
+.social {
+	padding-top: 10px;
+	letter-spacing: 10px;
+}
+
+.social img {
+	width: 45px;
+	height: 45px;
+}
+.social a {
+  cursor: pointer;
+}
+
+.position {
+	font-size: 20px;
+  	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
+  	text-transform: uppercase;
+  	font-weight: 300;
+  	text-align: center;
+  	margin: 0;
+  	line-height: 150%;
+  	font-style: italic;
+
+}
+
+.scroll-down  {
+	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 15px;
+	text-align: center;
+	font-weight: 100;
+	color: white;
+	letter-spacing: 3px;
+	padding-bottom: 0;
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+}
+
+.scroll-down a {
+	text-decoration: none;
+}
+
+.scroll-down-text {
+	font-size: 1rem;
+	color: white;
+	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 15px;
+	text-align: center;
+	font-weight: 100;
+	text-decoration: none;
+}
+
+
+
+
+.down-arrow {
+	padding-top: 0;
+
+
+}
+
+.about-me-section {
+	background-image: url('img/aboutme-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	/*background-size: 100% 100%;*/
+	padding: 1% 3%;
+	color: white;
+}
+
+.text-about-me {
+	width: 100%;
+	margin: 0;
+	max-width: 600px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
+}
+
+.hr-aboutme {
+	width: 50%;
+	margin-top: 10px;
+
+}
+
+
+.text-about-me h1 {
+	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 2em;
+	letter-spacing: 2px;
+	color: white;
+}
+.text-about-me h2 {
+	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-weight: 500;
+	/*font-weight: bold;*/
+	font-size: 1.2em;
+	letter-spacing: 2px;
+
+
+}
+
+
+
+.text-about-me p {
+	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
+	font-weight: 100;
+	font-size: 1em;
+	letter-spacing: 1px;
+}
+
+.company {
+	font-weight: 600;
+	font-size: 1em;
+	letter-spacing: 1px;
+
+}
+.title {
+	font-style: italic;
+	font-size: .9em;
+}
+
+
+/*PROJECT SECTION*/
+
+.project {
+	background-image: url('img/project-bg2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+
+/*	background-position: 50% 50%;*/
+
+/*	background: -webkit-linear-gradient( -90deg, #6a7c8c 10%, #485563 60%);
+	background: -moz-linear-gradient( -90deg, #6a7c8c 10%, #485563 60%);
+	background: -ms-linear-gradient( -90deg, #6a7c8c 10%, #485563 60%);
+	background: -o-linear-gradient( -90deg, #6a7c8c 10%, #485563 60%);*/
+	color: white;
+	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+
+
+
+.project h1 {
+	margin: 0;
+	padding-top: 25px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 2em;
+	letter-spacing: 2px;
+	color: white;
+
+}
+
+.all-project {
+	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
+	/*text-transform: uppercase;*/
+	font-weight: 100;
+	font-size: 1em;
+	letter-spacing: 2px;
+	color: white;
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 1px solid white;
+	padding-bottom: 10px;
+}
+
+.hr-projects {
+	width: 25%;
+	margin-top: 10px;
+}
+
+.all-project h2 {
+	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 1.5em;
+
+}
+
+
+
+/*PROJECT SECTION END*/
+
+
+.social-footer {
+	padding-bottom: 0;
+}
+.social-footer img{
+	width: 35px;
+	height: 35px;
+	padding: 1% 0 1% 0;
+}
+
+.get-in-touch {
+	padding-top: 2%;
+
+}
+
+.get-in-touch h1 {
+	margin: 0;
+	color: white;
+	font-size: 50px;
+  	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
+  	text-transform: uppercase;
+  	font-weight: 100;
+}
+.get-in-touch h2 {
+	color: white;
+	font-size: 20px;
+  	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
+  	text-transform: uppercase;
+  	font-weight: 100;
+  	font-style: italic;
+  	line-height: 200%;
+  	text-decoration: none;
+}
+
+.get-in-touch h2 a {
+	color: white;
+	font-size: 20px;
+  	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
+  	text-transform: uppercase;
+  	font-weight: 100;
+  	font-style: italic;
+  	line-height: 200%;
+  	text-decoration: none;
+}
+
+.s-line	{
+	width: 38%;
+	margin-top: 0;
+}
+
+.created {
+	color: white;
+	font-size: 12px;
+  	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
+  	text-transform: uppercase;
+  	font-weight: 100;
+  	line-height: 200%;
+
+
+}
+
+
+
+/*Animation*/
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-o-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.scroll-down {
+    -webkit-animation: blink 3s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 3s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 3ss;
+    -o-animation-iteration-count: infinite;
+
+}
+
+/*Animation End*/
+
+/*SCROLLTOTOP BUTTON*/
+
+.scrollToTop{
+	color: white;
+	text-decoration: none;
+	position:fixed;
+	top:90%;
+	right:3%;
+	display:none;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
+.fa{
+	font-size: 50px;
+}
+
+/*SCROLLTOTOP BUTTON END*/
+
+
+
+
+
+/*PUSH RIGHT MENU*/
+.popLeftMenu {
+	width: 250px;
+	height: 100%;
+	background: #5b708c;
+	position: fixed;
+	z-index: 0;
+	box-shadow: inset -5px -10px 10px 0 rgba(0,0,0,.3);
+
+}
+
+.popLeftMenu h3 {
+	display: block;
+	color: white;
+	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
+	font-size: 1.50em;
+	text-decoration: none;
+	text-align: center;
+	margin: 0;
+	padding: 20px;
+	border-bottom: 1px solid white;
+	background: #344559;
+	text-transform: uppercase;
+	font-weight: 300;
+  	letter-spacing: 2px;
+  	box-shadow: inset -5px 0px 10px 0 rgba(0,0,0,.3);
+
+}
+
+.popLeftMenu a {
+	display: block;
+	color: white;
+	font-family: "Avenir Next", Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	text-decoration: none;
+	padding: 5%;
+	border-bottom: 1px solid white;
+	text-align: center;
+	font-weight: 300;
+	letter-spacing: 2px;
+}
+
+.popLeftMenu a:hover  {
+	background: #bcbcbc;
+}
+
+.popLeftMenu {
+	-webkit-transform: translateX(-250px);
+	-moz-transform: translateX(-250px);
+	-ms-transform: translateX(-250px);
+	transform: translateX(-250px);
+	-webkit-transition: all .25s linear;
+	-moz-transition: all .25s linear;
+	-ms-transition: all .25s linear;
+	transition: all .25s linear;
+}
+
+.welcome {
+	-webkit-transform: translateX(0);
+	-moz-transform: translateX(0);
+	-ms-transform: translateX(0);
+	transform: translateX(0);
+	-webkit-transition: all .25s linear;
+	-moz-transition: all .25s linear;
+	-ms-transition: all .25s linear;
+	transition: all .25s linear;
+}
+
+.popLeftMenu-active .popLeftMenu {
+	-webkit-transform: translateX(0);
+	-moz-transform: translateX(0);
+	-ms-transform: translateX(0);
+	transform: translateX(0);
+}
+
+.popLeftMenu-active .welcome,
+.popLeftMenu-active .welcome {
+	-webkit-transform: translateX(250px);
+	-moz-transform: translateX(250px);
+	-ms-transform: translateX(250px);
+	transform: translateX(250px);
+}
+
+/*PUSH RIGHT MENU END*/
+
+
+/*MEDIA QUERY*/
+
+@media  (min-device-width: 320px) and (max-width: 480px)  {
+	.Kevin {
+		padding-top: 35%;
+	}
+  .welcome {
+  	background-image: url('img/nyc-still-bg.png');
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: 50% 50%;
+  	height: 100%;
+  	overflow: hidden;
+  }
+
+	#video-background {
+		display: none;
+	}
+	.name {
+		font-size: 3em;
+	}
+	.position {
+		font-size: 1em;
+	}
+	hr {
+	color: white;
+	width: 78%;
+	margin-top: 10px;
+	}
+	.scroll-down-text {
+		display: none;
+	}
+
+	.social img {
+		width: 35px;
+		height: 35px;
+	}
+	.scroll-down {
+		font-size: .8em;
+	}
+	.down-arrow {
+		width: 20px;
+		height: 20px;
+	}
+	.text-about-me h1 {
+		font-size: 1.5em;
+	}
+	.text-about-me p {
+		text-align: left;
+	}
+	.hr-aboutme {
+		width: 100%;
+	}
+
+/*PROJECT SECTION*/
+	.project h1 {
+		font-size: 1.5em;
+	}
+	.p-line {
+		width: 90%;
+	}
+	.all-project h2	{
+		font-size: 1.3em;
+	}
+	.all-project p {
+		padding: 1% 3%;
+		font-size: 1em;
+		line-height: 20px;
+
+	}
+	.hr-projects{
+		width: 95%;
+	}
+
+/*SCROLLTOTOP BUTTON*/
+	.fa{
+	font-size: 40px;
+	}
+	.scrollToTop{
+	top:85%;
+
+	}
+
+
+/*MEDIA FOOTER*/
+
+	.get-in-touch h1{
+		font-size: 2em;
+	}
+	.get-in-touch h2, a{
+		font-size: 1em;
+	}
+	.s-line	{
+		width: 83%;
+		margin-top: 0;
+	}
+	/*.created {
+		display: none;
+	}*/
+}
+
+
+
+
+
+/*GRID*/
+.portfolioop {
+display: block;
+height: 100%;
+overflow: hidden;
+position: relative;
+}
+.portfolioopcontent {
+display: block;
+margin: 0 auto;
+max-width: 1200px;
+overflow: hidden;
+width: 100%;
+padding-bottom: 30px;
+}
+.portfolioopcontent .contentboxo {
+float: left;
+margin: 1%;
+overflow: hidden;
+padding: 0;
+position: relative;
+transition: all 0.6s ease 0s;
+width: 31.3%;
+border-radius: 2px;
+box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.094), 0 1.5px 1.5px 0 rgba(0, 0, 0, 0.2), 0 2px 1.5px 0 rgba(0, 0, 0, 0.1);
+}
+.portfolioopcontent .contentboxo .infono {
+/*background-color: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);*/
+background-color: rgba(32, 30, 25, 0.6);
+color: white;
+display: block;
+font-family: Avenir Next;
+font-size: 1.4em;
+font-weight: normal;
+height: 100%;
+left: 0;
+line-height: 1em;
+opacity: 0;
+padding-top: 5%;
+position: absolute;
+text-align: center;
+top: 0;
+transition: all 0.3s ease 0s;
+width: 100%;
+z-index: 400;
+}
+.portfolioopcontent .contentboxo:hover .infono {
+opacity: 1;
+}
+.portfolioopcontent .contentboxo img.overlayo {
+display: block;
+margin: 0 auto;
+position: relative;
+transition: opacity 0.3s ease 0s;
+width: 100%;
+z-index: 500;
+}
+.portfolioopcontent .contentboxo:hover img.overlayo {
+opacity: 0.2;
+}
+.highlight {
+color: white;
+font-size: 0.8em;
+font-weight: 300;
+
+}
+.colorhighlight {
+color: #bcbcbc;
+}
+
+
+@media screen and (max-width: 2000px), screen and (max-device-width: 2000px) {
+	.portfolioop {
+	height: auto;
+	}
+  .welcome {
+    background-image: url('img/nyc-still-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 1440px), screen and (max-device-width: 1400px) {
+	.portfolioopcontent {
+	margin: 3.5% auto;
+	margin-bottom: auto;
+	}
+  .welcome {
+    background-image: url('img/nyc-still-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+
+
+
+@media screen and (max-width: 1000px), screen and (max-device-width: 1000px) {
+	.portfolioopcontent {
+	margin: 6% auto;
+	margin-bottom: auto;
+	}
+	#video-background {
+		display: none;
+	}
+	.portfolioopcontent .contentboxo .info {
+	font-size: 1.2em;
+	}
+	.fa {
+		display: none;
+	}
+  .welcome {
+    background-image: url('img/nyc-still-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 600px), screen and (max-device-width: 600px) {
+
+
+.portfolioopcontent .contentboxo {
+float: none;
+margin: 4% auto;
+width: 90%;
+	}
+  .welcome {
+    background-image: url('img/nyc-still-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+#video-background {
+		display: none;
+	}
+	.fa {
+		display: none;
+	}
+
+
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+
+
+	.portfolioop {
+	height: auto;
+	}
+	.portfolioopcontent .contentboxo {
+	padding: 2em;
+	width: 32%;
+	}
+	.portfolioopcontent .clearfix {
+	clear: none;
+	}
+	#video-background {
+		display: none;
+	}
+	.fa {
+		display: none;
+	}
+  .welcome {
+    background-image: url('img/nyc-still-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+}
