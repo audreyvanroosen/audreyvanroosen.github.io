@@ -24,7 +24,7 @@ hr {
 }
 
 footer {
-	background-image: url('img/footer.jpg');
+	background-image: url('img/footer2.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50% 50%;
@@ -140,7 +140,7 @@ footer {
 }
 
 .about-me-section {
-	background-image: url('img/succulents2.jpg');
+	background-image: url('img/succulents1b.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -204,7 +204,7 @@ footer {
 /*PROJECTS*/
 
 .project {
-	background-image: url('img/succulents3.jpg');
+	background-image: url('img/brick.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
